@@ -1,0 +1,48 @@
+.span_2_of_3  p ,.b-content-main p, .entry-meta p {
+    line-height: 1.8em;
+}
+.content {
+        padding: 10% 0 0;
+    }
+.b-content-main p{
+    margin-top: 2%;
+}
+.b-content-main img{
+    background: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #97907C;
+}
+
+#tiles li {
+    width: 360px;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: none; /** Hide items initially to avoid a flicker effect **/
+    cursor: pointer;
+    padding: 4px;
+}
+#tiles li img {
+    display: block;
+}
+/** * Grid item text */
+#tiles li p {
+    color: #666;
+    font-size: 12px;
+    margin: 7px 0 0 7px;
+}
+/** * Some extra styles to randomize heights of grid items. */
+#tiles ali:nth-child(3n) {
+    height: 175px;
+}
+
+#tiles ali:nth-child(4n-3) {
+    padding-bottom: 30px;
+}
+
+#tiles ali:nth-child(5n) {
+    height: 250px;
+}
