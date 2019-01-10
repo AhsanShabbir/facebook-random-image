@@ -45,6 +45,6 @@ CREATE TABLE `users`  (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES (1, 'AHSAN', 'ahsan@nas.com', 1, '33d403e86a266347fe3d264951eb0720');
-
+INSERT INTO `users` VALUES (1, 'AHSAN', 'ahsan@nas.com', 1, '827ccb0eea8a706c4c34a16891f84e7b');
+-- default password is 12345 for ahsan@nas.com
 SET FOREIGN_KEY_CHECKS = 1;
